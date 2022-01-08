@@ -1,46 +1,45 @@
 <!DOCTYPE html>
- <html lang="en">
- <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <link rel="stylesheet" href="style.css">
-    <!-- Add font awesome CDN-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <title>Responsive Form</title>
-    </head>
-     <body>
-   <!-- contact section -->
-         <section id="contact-section">
-           <div class="container">
-           	 <h2>Contact Us</h2>
-              <p>Email us and keep upto date with our latest news</p>
-             <div class="contact-form">
-
-                  <!-- First grid -->
-               <div>
-                 <i class="fa fa-map-marker"></i><span class="form-info">21 Henderson Valley Road, Henderson, Auckland 0612</span><br>
-                 <i class="fa fa-phone" > </i><span class="form-info">  +64 09-838 9085</span><br>
-                 <i class="fa fa-envelope"></i><span class="form-info">  @hhs.school.nz</span>
-               </div>
-               
-                   <!-- second grid -->
-           <div>
-             <form action="https://formsubmit.co/10edb88637922e7c5cc025ee7bd3aa0a" method="POST">
-     <input type="text" name="name" placeholder="name" required>
-     <input type="email" name="email" placeholder="email" required>
-     <input type="hidden" name="_subject" value="Contact us!">
-     <input type="hidden" name="_autoresponse" value="test123">
-
-
-     <input type="hidden" name="_next" value="https://arishayreddy.github.io/test123/contact.html">
-     <button type="submit">Send</button>
-    
-</form>
-               </div>
-             </div>
-           </div>
-         </section>
-
-         
-     </body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <form action="">
+      <div class="title">
+        <h2>CONTACT</h2>
+      </div>
+      <div class="half">
+        <div class="item">
+          <label for="name">NAME</label>
+          <input type="text" id = "name">
+        </div>
+        <div class="item">
+          <label for="email">EMAIL</label>
+          <input type="text" id = "email">
+        </div>
+      </div>
+      <div class="full">
+        <label for="message">MESSAGE</label>
+        <textarea name="" id = "message"></textarea>
+      </div>
+      <div class="action">
+        <input type="hidden" name="_next" value="https://arishayreddy.github.io/test123/contact.html">
+        <input type="submit" value = "SEND MESSAGE">
+        <input type="reset" value = "RESET">
+      </div>
+      <div class="icons">
+        <a href="" class = "fa fa-twitter"></a>
+        <a href="" class = "fa fa-facebook"></a>
+        <a href="" class = "fa fa-instagram"></a>
+        <a href="" class = "fa fa-github"></a>
+      </div>
+    </form>
+  </body>
+</html>
